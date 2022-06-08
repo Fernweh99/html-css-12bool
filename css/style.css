@@ -1,0 +1,16 @@
+/* Main */
+.row > [class^="col"] {
+    background-color: blue;
+    min-height: 50px;
+    border:1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.row .row > [class^="col"] {
+    background-color: green;
+    border: 1px solid blue;
+}
